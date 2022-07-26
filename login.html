@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<title> Login </title>
+	<link rel="stylesheet" href="CSS/login.css">
+	</head>
+
+	<body>
+	<div class="header">
+	<img class ="logo" alt="elephantlogo" src="images/logo.jpg" >
+  
+	<img class ="head" alt="gip" src="images/head.jpg" width="100%">
+  
+	<div class="topic">
+		<h1>Wild-Life Safari</h1>
+	</div>
+</div>
+	     
+<center>
+	<hr id="bar1"/>
+</center>
+
+<ul class="nav">
+		<li class="nav"><a class ="active" href="#home">HOME</a></li>
+		<li class="nav"><a href="#home">SAFAR PACKAGES</a></li>
+		<li class="nav"><a href="#home">PLAN A SAFARI</a></li>
+		<li class="nav"><a href="#home">THINGS TO DO</a></li>
+		<li class="nav"><a href="#home">VISITORS GUIDE</a></li>
+		<li class="nav"><a href="#home">ABOUT US</a></li>
+		<li class="nav"><a href="#home">CONTACT US</a></li>
+		<input type="text" name ="search" placeholder="Search.......">
+</ul>
+
+<center>
+	<hr id="bar2"/>
+</center>
+
+		<div class="hero">
+			<div class="form-box">
+			<div class="button-box">
+				<div id="btn"></div>
+				<button type="button" class="toggle-btn" onclick="login()">Login</button>
+				<button type="button" class="toggle-btn" onclick="register()">Register</button>
+		</div>
+		<div class="social-icons">
+			<img src="Images/google.png">
+			<img src="Images/instergram.png">
+			<img src="Images/twitter.png">
+		</div>
+
+		<form id="login" class="input-group">
+			<input type="text" class="input-field" placeholder="User Name" required>
+			<input type="text" class="input-field" placeholder="Enter Password" required>
+			<input type="checkbox" class="check-box"><span>Remember Password</span>
+			<button type="submit" class="submit-btn">Login</button>
+		</form>
+
+		<form id="register" class="input-group">
+			<input type="text" class="input-field" placeholder="User Name" required>
+			<input type="email" class="input-field" placeholder="Email " required>
+			<input type="text" class="input-field" placeholder="Enter Password" required>
+			<input type="checkbox" class="check-box"> <span>I agree with terms & conditions</span>
+			<button type="submit" class="submit-btn">Register</button>
+		</form>
+
+		</div>	
+
+	</div>
+
+	<script> 
+		var x=document.getElementById("login");
+		var y=document.getElementById("register");
+		var z=document.getElementById("btn");
+
+		function register(){
+		x.style.left="-400px";
+		y.style.left="50px";
+		z.style.left="110px";
+	}
+	function login(){
+		x.style.left="50px";
+		y.style.left="450px";
+		z.style.left="0";
+	}
+
+</script>
+
+<footer>
+	<div class="footer-wrapper">
+		<div class="single-footer">
+			<h2>Logo</h2>
+			<p>kaksasnxjsnxjsnxnsmkmxmksmxk</p>
+		</div>
+		<div class="single-footer">
+			<h2>Navigation</h2>
+			<ul>
+				<li><a href="#">Home</a></li>
+				<li><a href="#">About Us</a></li>
+				<li><a href="#">cdjcnjc</a></li>
+				<li><a href="#">jsjsjx</a></li>
+			</ul>
+		</div>
+		<div class="single-footer">
+			<h2>Get Help</h2>
+			<ul>
+				<li><a hreaf="#">bhbh</a></li>
+				<li><a hreaf="#">bhbh</a></li>
+				<li><a hreaf="#">bhbh</a></li>
+				<li><a hreaf="#">bhbh</a></li>
+			</ul>
+		</div>
+	</div>
+</footer>
+
+	</body>
+</html>
